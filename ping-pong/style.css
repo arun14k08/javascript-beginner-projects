@@ -38,3 +38,20 @@ body {
     border-radius: 50%;
     background-color: #777;
 }
+
+.score-container{
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    width: fit-content;
+    height: 3rem;
+    background-color: #777;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
